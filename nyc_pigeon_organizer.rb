@@ -22,7 +22,6 @@ def nyc_pigeon_organizer(data)
               array = pigeon_list[bird][attribute]
               array << datahash_trait
               pigeon_list[bird][attribute] = array
-              binding.pry
             end 
           end 
         end 
