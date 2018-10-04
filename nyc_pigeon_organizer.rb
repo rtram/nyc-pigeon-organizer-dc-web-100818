@@ -7,9 +7,8 @@ def nyc_pigeon_organizer(data)
     attribute_value.each do |attribute_value, bird_array|
       bird_array.each do |bird_name|
                 binding.pry
-
-
-
+        if (pigeon_list.keys.include? (bird_name) == false 
+        end 
       end 
     end 
   end 
