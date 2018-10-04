@@ -22,7 +22,7 @@ def nyc_pigeon_organizer(data)
               array = pigeon_list[bird][attribute]
               conversion = "#{datahash_trait}"
                 binding.pry
-              array << datahash_trait
+              array << conversion
               pigeon_list[bird][attribute] = array
             end 
           end 
