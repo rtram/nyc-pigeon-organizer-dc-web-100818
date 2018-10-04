@@ -8,7 +8,6 @@ def nyc_pigeon_organizer(data)
       bird_array.each do |bird_name|
         binding.pry
 
-        end 
       end 
     end 
   end 
