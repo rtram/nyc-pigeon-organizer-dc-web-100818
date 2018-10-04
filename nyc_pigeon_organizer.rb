@@ -12,5 +12,10 @@ def nyc_pigeon_organizer(data)
       end 
     end 
   end 
-                            binding.pry
+  
+  pigeon_list.each do |bird,attributes|
+    attributes.each do |attribute_value,bird_array|
+        binding.pry
+    end 
+  end 
 end
