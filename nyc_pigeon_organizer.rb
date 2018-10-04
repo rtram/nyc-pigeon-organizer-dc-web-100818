@@ -8,8 +8,7 @@ def nyc_pigeon_organizer(data)
       bird_array.each do |bird_name|
         if (pigeon_list.keys.include? (bird_name)) == false 
           pigeon_list[bird_name] = {:color => [], :gender => [], :lives => []}
-                          binding.pry
-        end 
+        end
       end 
     end 
   end 
