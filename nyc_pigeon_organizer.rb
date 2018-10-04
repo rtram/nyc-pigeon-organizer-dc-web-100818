@@ -20,6 +20,8 @@ def nyc_pigeon_organizer(data)
           datahash_attribute_data.each do |datahash_trait, datahash_bird_array|
             if datahash_bird_array.include? (bird)
               array = pigeon_list[bird][attribute]
+              array << datahash_trait
+              pigeon_list[bird][attribute] = array
               binding.pry
             end 
           end 
