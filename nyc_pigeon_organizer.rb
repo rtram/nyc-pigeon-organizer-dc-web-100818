@@ -21,7 +21,6 @@ def nyc_pigeon_organizer(data)
             if datahash_bird_array.include? (bird)
               array = pigeon_list[bird][attribute]
               conversion = "#{datahash_trait}"
-                binding.pry
               array << conversion
               pigeon_list[bird][attribute] = array
             end 
