@@ -15,9 +15,9 @@ def nyc_pigeon_organizer(data)
   
   pigeon_list.each do |bird, attributes|
     attributes.each do |attribute, bird_array|
-      data.each do |datahash_attribute, datahash_attributedata|
+      data.each do |datahash_attribute, datahash_attribute_data|
         if attribute == datahash_attribute
-          datahash_attributedatadata.each do |datahash_trait, datahash_bird_array|
+          datahash_attribute_data.each do |datahash_trait, datahash_bird_array|
               binding.pry
           end 
         end 
